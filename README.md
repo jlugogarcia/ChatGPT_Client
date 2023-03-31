@@ -40,7 +40,7 @@ Before using the application, it is recommended to create an OpenAI account and 
 
 - [OpenAI API Keys Page](https://platform.openai.com/account/api-keys).
 
-Next: Create a new folder in the Solution "Constant", add a new class APIConstants, using the code from below. Then, add the OpenAI API key to the `OpenAIToken` constant in the project, which is responsible for storing it:
+Next: Create a new folder "Constant" in the Solution, add a new class APIConstants, using the code from below. Then, add the OpenAI API key to the `OpenAIToken` constant in the project, which is responsible for storing it:
 
 ```csharp
 namespace ChatGPT.Constants
