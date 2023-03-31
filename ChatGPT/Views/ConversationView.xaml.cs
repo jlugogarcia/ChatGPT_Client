@@ -14,4 +14,9 @@ public partial class ConversationView : ContentPage
         vm.ConversationView = mainPage;
     }
 
+    private void Entry_Completed(object sender, EventArgs e)
+    {
+        //call CurrentCommand from the ConversationModel class
+        ((ConversationViewModel)BindingContext).CurrentCommand.Execute(sender);        
+    }
 }

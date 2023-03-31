@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatGPT", "ChatGPT.csproj", "{A8A52DCB-72EA-4A12-AADA-F7BBC61EE537}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatGPT_MAUI", "ChatGPT_MAUI.csproj", "{A8A52DCB-72EA-4A12-AADA-F7BBC61EE537}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

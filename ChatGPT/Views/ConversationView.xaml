@@ -141,7 +141,7 @@
                 Grid.ColumnSpan="3"
                 HorizontalTextAlignment="Center"
                 Style="{StaticResource TxtSubtitle2_1}"
-                Text="Don't be afraid and ask your question to ChatGPT" />
+                Text="Ask any question to ChatGPT" />
         </Grid>
 
 
@@ -162,8 +162,9 @@
                     <Entry
                         Margin="16,0"
                         Placeholder="Enter text here..."
-                        Style="{StaticResource TxtSubtitle2_3}"
-                        Text="{Binding Query}"
+                        Style="{StaticResource TxtSubtitle2_3}"                        
+                        Text="{Binding Query}"  
+                        Completed="Entry_Completed"
                         TranslationY="4" />
 
                     <skia:SKLottieView
