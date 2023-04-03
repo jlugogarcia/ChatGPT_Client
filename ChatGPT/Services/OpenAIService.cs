@@ -37,8 +37,10 @@ namespace ChatGPT.Services
                 var data = await response.Content.ReadFromJsonAsync<CompletionResponse>(options);
                 return data?.Choices?.FirstOrDefault().Text;
             }
-
-            return default;
+            else 
+                return "Sorry, it seems I cannot communicate with the server. Perhaps the API trial period has expired. " +
+                    "Or, maybe the API usage limit has been reached for the month?";
+          
         }
 
         public async Task<string> CreateImage(string query)
